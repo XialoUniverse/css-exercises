@@ -35,7 +35,7 @@ ul {
 }
 
 a {
-  text-decoration-line: none;
+  text-decoration: none;
 }
 
 .container {
@@ -71,7 +71,28 @@ a {
   align-items: center;
 }
 
+.content input {
+  border-color: #cec5c5;
+  margin-bottom: 10px;
+}
+
+.content .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #6b6b6b;
+}
+
 .footer {
   background-color: #eeeeee;
+}
+
+.footer a {
+  color:#757575;
 }
 
