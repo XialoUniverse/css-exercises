@@ -20,6 +20,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  justify-content: left;
+  gap: 16px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .icon {
@@ -48,6 +64,12 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.modal-footer {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
 }
 
 button {
